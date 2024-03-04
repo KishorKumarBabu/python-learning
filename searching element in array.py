@@ -6,9 +6,9 @@ for i in range(n):
     a.append(x)
 print(a)
 b=int(input("enter the element to search"))
-for i in range(n):
-    if(b==a[i]):
-        print("the search element is found in index",i)
+for j in range(n):
+    if(b==a[j]):
+        print("the search element is found in index",j)
         break
 else:
      print("not found")
