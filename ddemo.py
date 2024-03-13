@@ -1,0 +1,2 @@
+lst=["kishor"]
+print(lst)
