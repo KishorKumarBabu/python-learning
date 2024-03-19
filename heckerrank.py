@@ -56,4 +56,37 @@ if __name__ == '__main__':
                 if(i+j+k !=n):
                     l.append([i,j,k])
                     
-print(l)        
+print(l)  
+
+#nested list
+
+if __name__ == '__main__':
+    arr=[]
+    tempscores=[]
+    result=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        arr.append([name,score])
+        tempscores.append(score)
+    tempscores=list(set(tempscores))
+    tempscores.sort()
+    secondlowestvalue=tempscores[1]
+    for i in range(len(arr)):
+        if(arr[i][1] == secondlowestvalue):
+            result.append(arr[i][0])
+    result.sort()        
+    for i in result:
+        print(i)  
+        
+#runner up sdore
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int,input().split()))
+    arr.sort(reverse=True)
+    for i in range(n):
+        if arr[i] > arr[i+1]:
+            print(arr[i+1])
+            break
+            a  
