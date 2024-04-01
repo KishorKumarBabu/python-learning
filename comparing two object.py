@@ -10,6 +10,7 @@ class computer:
         else:
             return False
 c1=computer()
+c1.update()
 c2=computer()
 if c1.compare(c2):
     print("same")
