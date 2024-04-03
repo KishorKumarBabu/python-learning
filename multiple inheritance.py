@@ -13,3 +13,5 @@ class c(a,b):
         print("feature 5 is working")   
 c1=c()
 c1.feature1()
+b1=b()
+b1.feature3()
