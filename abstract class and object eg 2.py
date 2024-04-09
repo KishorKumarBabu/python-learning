@@ -5,7 +5,6 @@ class computer(ABC):
         pass
 class laptop(computer):
     pass
-com=computer()
 lap=laptop()
 lap.process()
 
