@@ -8,3 +8,4 @@ class laptop(computer):
         print("its running")
 lap=laptop()
 lap.process()
+# now we created a method for laptop it does not show error
